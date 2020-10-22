@@ -1,6 +1,8 @@
 " allow pasting into terminal
 set mouse=r
 
+set number
+
 filetype plugin indent on
 
 " show existing tab with 4 spaces width

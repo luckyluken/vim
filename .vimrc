@@ -26,6 +26,12 @@ set expandtab
 "
 call plug#begin()
 
+" Fuzzy file finding
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+" Git helper
+Plug 'tpope/vim-fugitive'
+
 " Plugin for some good default settings.
 Plug 'tpope/vim-sensible'
 
@@ -38,11 +44,8 @@ Plug 'vim-airline/vim-airline'
 " Git info in the gutter
 Plug 'airblade/vim-gitgutter'
 
-
 " File System Explorer (:NERDTREE)
 Plug 'preservim/nerdtree'
-
-
 
 " Plugin to close html tags
 Plug 'alvan/vim-closetag'

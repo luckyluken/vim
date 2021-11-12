@@ -28,6 +28,7 @@ call plug#begin()
 
 " Fuzzy file finding
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Git helper
 Plug 'tpope/vim-fugitive'

@@ -68,6 +68,8 @@ call plug#end()
 
 colorscheme darcula
 
+noremap gs :execute 'Rg ' . expand('<cword>')<Cr>
+
 
 "=================================================================
 " COC Settings
